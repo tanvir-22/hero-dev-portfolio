@@ -168,3 +168,56 @@ nav .menu{
     margin-bottom: 20px;
     font-size: 20px;
 }
+#resume{
+    margin-top: 130px;
+}
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 71px;
+}
+.resume-container h2{
+        margin-top: 113px;
+        color: #474747;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+}
+.resume-container .education-card{
+    max-width: 511px;
+}
+.resume-container .experience-card{
+    max-width: 511px;
+}
+.resume-container h3{
+        color: #474747;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+}
+
+.resume-container h5{
+        color: #757575;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+}
+.resume-container p{
+        color: #757575;
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 28px;
+        margin-right:47px;
+}
+.resume-container hr{
+    max-width: 558px;
+    color: #d1d1d13f;
+    margin-bottom: 30px;
+}
+#centrebtn{
+    text-align: center;
+}
+
+
