@@ -16,14 +16,20 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
 
 
+
 header{
+    /* add background images */
+    background: url("./images/developer.png"),url("./images/header_bg.png"),#FFF8F3;
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 .logo h2{
@@ -52,4 +58,38 @@ nav .menu{
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+#banner{
+    /* border: 5px solid tomato; */
+    margin: 49px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#banner .banner-content{
+     max-width: 585px;
+}
+#banner .banner-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+   
+}
+#banner .banner-content h1{
+    color:#181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    color:#757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-img img{
+    max-width: 585px;
+    vertical-align: middle; /*to remove gap after hardy image*/
 }
