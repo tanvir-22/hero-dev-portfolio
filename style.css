@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.font_orange{
+    color: #FD6E0A;
+}
+nav{
+   
+    width:  71%; /*1140/1600 takes 71% of the container.container=1600px*/
+    max-width: 1140px;/*even if the container greater than 1600px nav will not exceed 1140px*/
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display:flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
